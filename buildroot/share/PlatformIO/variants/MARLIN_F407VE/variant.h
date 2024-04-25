@@ -319,6 +319,14 @@ extern "C" {
 #define PIN_SERIAL_RX           PA10
 #define PIN_SERIAL_TX           PA9
 
+#define PIN_SERIAL1_RX          PA10
+#define PIN_SERIAL1_TX          PA9
+
+#define ENABLE_HWSERIAL3
+#define PIN_SERIAL3_TX          PD8
+#define PIN_SERIAL3_RX          PD9
+
+
 /* Extra HAL modules */
 #define HAL_DAC_MODULE_ENABLED
 #define HAL_SD_MODULE_ENABLED
